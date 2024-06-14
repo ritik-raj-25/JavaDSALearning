@@ -19,8 +19,10 @@ class SinglyLinkedList{
         if(head == null){
             head = tail = temp;
         }
-        tail.next = temp;
-        tail = temp;
+        else{
+            tail.next = temp;
+            tail = temp;
+        }
         ++size;
     }
     public void insertAtHead(int data){ //T.C.: O(1)
@@ -28,8 +30,10 @@ class SinglyLinkedList{
         if(head == null){
             head = tail = temp;
         }
-        temp.next = head;
-        head = temp;
+        else{
+            temp.next = head;
+            head = temp;
+        }
         ++size;
     }
     public void insert(int indx, int data) throws Error{ //T.C.: O(size)
