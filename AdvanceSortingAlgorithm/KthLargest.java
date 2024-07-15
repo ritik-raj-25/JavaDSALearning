@@ -47,6 +47,6 @@ public class KthLargest {
         int k = 3;
         print(arr);
         quickSelect(arr,0,arr.length-1,k);
-        System.err.println(arr[arr.length-k]);
+        System.out.println(arr[arr.length-k]);
     }
 }
