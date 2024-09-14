@@ -13,7 +13,7 @@ public class InfixToPostfix {
         else return false;
     }
     public static void main(String[] args) {
-        String infix = "9-(5*3+8/2)+3-4"; 
+        String infix = "1+2*(3/4)*5"; //9-(5*3+8/2)+3-4
         Stack<StringBuilder> val = new Stack<>();
         Stack<Character> op = new Stack<>();
         for(int i=0; i<infix.length(); ++i){
