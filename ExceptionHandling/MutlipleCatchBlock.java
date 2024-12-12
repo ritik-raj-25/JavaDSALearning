@@ -1,4 +1,4 @@
-//f you have to perform different tasks at the occurrence of different exceptions, 
+//If you have to perform different tasks at the occurrence of different exceptions, 
 //use java multi-catch block.
 
 //1. At a time only one exception occurs and at a time only one catch block is executed.
